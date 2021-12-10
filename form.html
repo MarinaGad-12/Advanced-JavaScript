@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+    <style>
+        th{
+            padding-right: 50px;
+        }
+        table{
+            display: none;
+            width: 700px;
+        }
+        #formstyle{
+        width: 700px;
+        margin: auto;
+        margin-top: 20px;
+        background-color: #eee;
+        text-align: center;           
+        }
+        #tablestyle{
+        display: none;
+        width: 700px;
+        margin: auto;
+        margin-top: 20px;
+        background-color: #eee;
+        text-align: center;
+        }
+    </style>
+    
+</head>
+<body>
+    <div id='formstyle'>
+    <form id="Form">
+        <div>
+            Book's Name
+        </div>
+        <div>
+            <input type="text" id='title'>
+            <span id='sp1'></span>
+        </div>
+        <div>
+            Price
+        </div>
+        <div>
+            <input type="text" id='price'>
+            <span id='sp2'></span>
+        </div>
+        <div>
+            Author Name
+        </div>
+        <div>
+            <input type="text" name="" id="auth">
+            <span id='sp3'></span>
+        </div>
+        <div>
+            Author Mail
+        </div>
+        <div>
+            <input type="text" id='mail'>
+            <span id='sp4'></span>
+        </div>
+        <button type="submit" name="submit" id="ok2">OK</button>
+    </form>
+    </div>
+    <div id='tablestyle'> 
+    <table id='table'>
+        <tr>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Author Name</th>
+          <th>Author Mail</th>
+          <th></th>
+          <tbody id="rows">
+
+          </tbody>
+        </tr>
+      </table>
+      <!-- <button>Edit</button>
+      <button>Delete</button> -->
+    </div> 
+    <script src='script2.js'></script> 
+    
+</body>
+</html>
